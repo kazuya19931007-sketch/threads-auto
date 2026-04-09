@@ -1,0 +1,15 @@
+{
+  "name": "threads-auto",
+  "version": "1.0.0",
+  "description": "固定費削減サービス Threads 自動運用ツール",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "post:morning": "node scripts/post.js morning",
+    "post:noon": "node scripts/post.js noon",
+    "post:night": "node scripts/post.js night",
+    "analyze": "node scripts/analyze.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
